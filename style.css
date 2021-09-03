@@ -3,7 +3,7 @@
 	# atributo de ID
 */
 
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+* {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
 body{line-height:1}
 h1{font-size: 25px;}h2{font-size: 21px;}h3{font-size: 18px;}h4{font-size: 16px;}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
@@ -21,12 +21,18 @@ input,select{vertical-align:middle}
 
 #page-wrap { width: 800px; margin: 40px auto 60px; }
 .clear { clear: both; }
+dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
 dd { width: 600px; float: right; }
 dd.clear { float: none; margin: 0; height: 15px; }
 
 body {
-  background-color: #F6F6F6;
+	background-color: #F6F6F6;
+	font: 20px Helvetica, Sans-Serif;
+	line-height: 24px;
+	background: url(images/noise.jpg);
 }
+
+
 body, p {
 	font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: normal;
@@ -59,6 +65,7 @@ h1, h2 {
 	padding: 0 0 0 0;
 	width: auto;
 	height: auto;
+	line-height: 48px;
 
 	display: flex;
 	justify-content: center;
